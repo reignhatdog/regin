@@ -1,0 +1,66 @@
+body {
+    background-image: url('br.jpg.jpg'); /* Add your image URL here */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Fix the background while scrolling */
+    margin: 0;
+    height: 100vh;
+  }
+  
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #313131;  
+    color: white;            /*  text color */
+    display: flex;        
+    justify-content: space-between;  /* Space between logo and nav */
+    align-items: center;     
+  padding: 30px 30px;   /* Padding around the header */
+}
+
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style-type: none;  
+    display: flex;          
+}
+
+nav ul li {
+    margin-left: 20px;      
+}
+
+nav ul li a {
+    color: white;           
+    text-decoration: none;  
+    font-size: 16px;        
+}
+
+nav ul li a:hover {
+    color: #36d7ff;         
+}
+
+p {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 1.6;
+    word-spacing: 2px;
+    text-emphasis: none;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-size: 20px;               
+    
+  }
